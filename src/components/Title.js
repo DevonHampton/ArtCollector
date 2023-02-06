@@ -12,8 +12,8 @@ import React from 'react';
  *   </h5>
  * </div>
  */
-const Title = (props) => {
-    <div id="title">
+export const Title = (props) => {
+    return <div id="title">
         <h1>
          The Art Collector
         </h1>

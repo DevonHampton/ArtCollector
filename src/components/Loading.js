@@ -8,7 +8,7 @@ import React from 'react';
  * </div>
  */
 const Loading = (props) => {
-    <div id="loading">
+    return <div id="loading">
         <h2 className="message">Searching...</h2>
     </div>
 };
